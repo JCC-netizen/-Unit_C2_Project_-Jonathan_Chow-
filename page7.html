@@ -3,20 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 6: Forms and Inputs</title>
+    <title>Lesson 6: Tables and Images</title>
 </head>
 <body>
-    <h1>Lesson 6: Forms and Inputs</h1>
-    <p>Forms are used to collect user input on webpages. Input fields, such as text fields and checkboxes, allow users to submit data. HTML forms are essential for creating interactive webpages, such as contact forms or registration forms.</p>
+    <h1>Lesson 6: Tables and Images</h1>
+    <p>
+        The <code>&lt;img&gt;</code> tag will display an image with the source file "image.jpg," while 
+        the <code>&lt;table&gt;</code> tag creates a table. In the <code>&lt;img&gt;</code> tag, there are two parts, "src" and "alt". "Src" is the url or file path of the image while "alt" is a description of the image. In the <code>&lt;table&gt;</code> tag, there are the 
+        <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code>, and <code>&lt;th&gt;</code> tags. The <code>&lt;tr&gt;</code> 
+        tag defines a row, the <code>&lt;td&gt;</code> tag defines the data inside the table, and the 
+        <code>&lt;th&gt;</code> tag creates headers for the table.
+    </p>
 
-    <h2>Example HTML Code:</h2>
+    <h3>Example of <code>&lt;img&gt;</code> and <code>&lt;table&gt;</code> tags:</h3>
     <pre>
-        &lt;form action="/submit" method="POST"&gt;
-            &lt;input type="text" name="username" placeholder="Enter your name"&gt;
-            &lt;input type="submit" value="Submit"&gt;
-        &lt;/form&gt;
+        &lt;img src="image.jpg" alt="A beautiful image"&gt;
+
+        &lt;table border="1"&gt;
+            &lt;tr&gt;
+                &lt;th&gt;Name&lt;/th&gt;
+                &lt;th&gt;Age&lt;/th&gt;
+                &lt;th&gt;City&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;John&lt;/td&gt;
+                &lt;td&gt;25&lt;/td&gt;
+                &lt;td&gt;New York&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;Jane&lt;/td&gt;
+                &lt;td&gt;30&lt;/td&gt;
+                &lt;td&gt;Los Angeles&lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
     </pre>
-    <p>This form includes an input field where users can type their name and a submit button to send the form data.</p>
+<h4>This is how it looks like on a webpage!</h4>
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="A beautiful image">
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>25</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Jane</td>
+            <td>30</td>
+            <td>Los Angeles</td>
+        </tr>
+    </table>
+
 
     <nav>
         <a href="page6.html">Previous Lesson</a> |
