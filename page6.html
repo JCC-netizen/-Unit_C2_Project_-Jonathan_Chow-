@@ -3,18 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 5: Hyperlinks</title>
+    <title>Lesson 5: Images and Tables</title>
 </head>
 <body>
-    <h1>Lesson 5: Hyperlinks</h1>
-    <p>Hyperlinks <code>&lt;a&gt;</code> are used to connect pages or websites.</p>
-    <h2>Example of <code>&lt;a&gt;</code> tag:</h2>
-    <pre>
-        &lt;a href="https://www.example.com"&gt;Click here to visit Example&lt;/a&gt;
-    </pre>
-    <p>On the webpage, the hyperlink will create a clickable link, and the image will be displayed on the page.</p>
-<p>This is how it would look on a webpage:</p>
-<a href="https://www.wikipedia.org" target="_blank">Visit Wikipedia</a>
+    p>
+    The <code>&lt;img&gt;</code> tag will display an image with the source file "image.jpg," while 
+    the <code>&lt;table&gt;</code> tag creates a table. In the <code>&lt;img&gt;</code> tag, there are two parts, "src" and "alt". "Src" is the url or file path of the image while "alt" is a description of the image. In the <code>&lt;table&gt;</code> tag, there are the 
+    <code>&lt;tr&gt;</code>, <code>&lt;td&gt;</code>, and <code>&lt;th&gt;</code> tags. The <code>&lt;tr&gt;</code> 
+    tag defines a row, the <code>&lt;td&gt;</code> tag defines the data inside the table, and the 
+    <code>&lt;th&gt;</code> tag creates headers for the table.
+</p>
+
+<h3>Example of <code>&lt;img&gt;</code> and <code>&lt;table&gt;</code> tags:</h3>
+<pre>
+    &lt;img src="image.jpg" alt="A beautiful image"&gt;
+
+    &lt;table border="1"&gt;
+        &lt;tr&gt;
+            &lt;th&gt;Name&lt;/th&gt;
+            &lt;th&gt;Age&lt;/th&gt;
+            &lt;th&gt;City&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;John&lt;/td&gt;
+            &lt;td&gt;25&lt;/td&gt;
+            &lt;td&gt;New York&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+            &lt;td&gt;Jane&lt;/td&gt;
+            &lt;td&gt;30&lt;/td&gt;
+            &lt;td&gt;Los Angeles&lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/table&gt;
+</pre>
+<h4>This is how it looks like on a webpage!</h4>
+<img src="https://www.google.com/imgres?q=a%20beautiful%20image&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F025%2F067%2F762%2Fsmall_2x%2F4k-beautiful-colorful-abstract-wallpaper-photo.jpg&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-photos%2Fbeautiful-wallpaper&docid=Xvkxet2_VJnnpM&tbnid=FIRaiNwUkm0BdM&vet=12ahUKEwiw8IeK__OJAxXqE1kFHdmXLJQQM3oECBYQAA..i&w=711&h=400&hcb=2&ved=2ahUKEwiw8IeK__OJAxXqE1kFHdmXLJQQM3oECBYQAA" alt="A beautiful image">
+
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Age</th>
+        <th>City</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>25</td>
+        <td>New York</td>
+    </tr>
+    <tr>
+        <td>Jane</td>
+        <td>30</td>
+        <td>Los Angeles</td>
+    </tr>
+</table>
+
+
+<nav>
+    <a href="page4.html">Previous Lesson</a> |
+    <a href="page6.html">Next Lesson</a>
+</nav>
+</body>
+</html>
 
 
 
