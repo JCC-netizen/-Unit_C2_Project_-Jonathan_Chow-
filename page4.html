@@ -7,7 +7,7 @@
 </head>
 <body>
     <h1>Lesson 3: Structuring an HTML Document</h1>
-    <p>Every HTML document follows a basic structure. It starts with the <code>&lt;!DOCTYPE html&gt;</code> declaration, followed by the <code>&lt;html&gt;</code> element. Inside <code>&lt;html&gt;</code>, you'll have the <code>&lt;head&gt;</code> and <code>&lt;body&gt;</code> sections. The <code>&lt;head&gt;</code> contains metadata, while the <code>&lt;body&gt;</code> contains the visible content.</p>
+    <p>Every HTML document follows a basic structure. It starts with the <code>&lt;!DOCTYPE html&gt;</code> declaration, followed by the <code>&lt;html&gt;</code> element. Inside <code>&lt;html&gt;</code>, you'll have the <code>&lt;head&gt;</code>,<code>&lt;title&gt;</code> and <code>&lt;body&gt;</code> sections. In the <code>&lt;body&gt;</code> section, you can have tags like <code>&lt;h1&gt;</code> and <code>&lt;p&gt;</code>. The <code>&lt;head&gt;</code> contains metadata, while the <code>&lt;body&gt;</code> contains the visible content. The<code>&lt;title&gt;</code> specifies the webpage's title, <code>&lt;h1&gt;</code> defines a heading, and <code>&lt;p&gt;</code> defines the paragraph</p>
 
     <h2>Example HTML Code:</h2>
     <pre>
@@ -24,14 +24,9 @@
     </pre>
     <p>This structure ensures that the browser knows how to process the document. The content inside <code>&lt;body&gt;</code> will be visible to users on the webpage, while <code>&lt;head&gt;</code> contains information like the page title that appears on the browser tab.</p>
     <p> This is how it looks like on a webpage!</p>
-    <h2>Webpage perspective</h2>
-    <head>
-        <title>My Web Page</title>
-    </head>
-    <body>
-        <h1>Welcome to My Web Page!</h1>
-        <p>This is the content of my webpage.</p>
-    </body>
+    <title>My Web Page</title>
+    <h1>Welcome to My Web Page!</h1>
+    <p>This is the content of my webpage.</p>
     <nav>
         <a href="page3.html">Previous Lesson</a> |
         <a href="page5.html">Next Lesson</a>
