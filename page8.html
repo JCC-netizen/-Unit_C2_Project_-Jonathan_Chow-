@@ -1,30 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <title>Other page</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lesson 7: Best Practices for HTML</title>
-</head>
-<body>
-    <h1>Lesson 7: Best Practices for HTML</h1>
-    <p>Writing clean, semantic HTML is important for creating accessible, maintainable websites. By following best practices, such as using proper indentation, including alt text for images, and ensuring your code is valid, you ensure that your website is readable by both humans and search engines. Here are some links to places where you can practice your html!</p>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Lesson 8: Iframes</h1>
 
-    
-    
-        <ul>
-            <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">Codecademy - Learn HTML</a></li>
-            <li><a href="https://www.freecodecamp.org/learn/responsive-web-design/#basic-html-and-html5" target="_blank">freeCodeCamp - Basic HTML & HTML5</a></li>
-            <li><a href="https://www.w3schools.com/html/" target="_blank">W3Schools - HTML Tutorial</a></li>
-            <li><a href="https://www.khanacademy.org/computing/computer-programming/html-css" target="_blank">Khan Academy - HTML/CSS</a></li>
-            <li><a href="https://www.learn-html.org/" target="_blank">Learn HTML - Free Interactive Tutorial</a></li>
-        </ul>
-        
-    
-    
+      <h2>Iframe</h2>
+      <p><strong>Iframes</strong> allow one HTML document to display the contents of another HTML document or web page. We use the <strong>&lt;iframe&gt;</strong> element to accomplish this.</p>
+      <p>Example:</p>
+      <p><img src="iframes.png" alt="Example of iframe in HTML"></p>
 
-    <nav>
-        <a href="page7.html">Previous Lesson</a> |
-        <a href="index.html">Home</a>
-    </nav>
-</body>
+      <h2>HTML iframe Syntax</h2>
+      <p><strong>&lt;iframe src="url" title="description"&gt;&lt;/iframe&gt;</strong></p>
+      <p>The <strong>src</strong> attribute is used to specify the path to the HTML document or web page that will be displayed inside the iframe.</p>
+      <p>Iframes are inline elements, meaning if the width of an iframe is less than the width of the page, other content may appear to the right or left of it.</p>
+      <p>The <strong>title</strong> attribute is used to provide a description for screen readers (and in case the source page is inaccessible), describing the page that should be displayed within the iframe.</p>
+
+      <h2>Height and Width</h2>
+      <p>Although not strictly necessary, you can use the <strong>height</strong> and <strong>width</strong> attributes to control the size of the iframe window.</p>
+      <p>You can specify either height/width in terms of pixels (absolute values) or percentages (relative to the current window or parent element).</p>
+      <p>Example:</p>
+      <p><strong>&lt;iframe src="url" title="description" height="400" width="40%"&gt;&lt;/iframe&gt;</strong></p>
+    </main>
+  </body>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/page7.html" aria-current="page">Next Lesson</a>
+    <a href="page9.html">Previous Lesson</a>
+  </nav>
 </html>
